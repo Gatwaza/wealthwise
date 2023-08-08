@@ -1,0 +1,110 @@
+table {
+    width: 900px;
+}
+
+.dashboard-header,
+.dashboard-body {
+    display: flex;
+}
+
+.dashboard-header {
+    justify-content: flex-start;
+    margin: 0 10px 0 40px;
+}
+
+.dashboard-body {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 10px 0 40px;
+}
+
+.owned-assets {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+}
+
+.body-row {
+    display: flex;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.body-row:hover {
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+.dashboard-body > a {
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio-theaders > th {
+    font-weight: 400;
+    color: gray;
+    padding: 0;
+}
+
+.portfolio-theaders {
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0 25px 0;
+}
+
+.comp-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.owned-comp-label,
+.comp-title {
+    width: 300px;
+    text-align: left;
+}
+
+.owned-shares-label,
+.owned-balance,
+.owned-price-label,
+.owned-comp-price {
+    width: 200px;
+    text-align: left;
+}
+
+.owned-allocations-label {
+    width: 100px;
+    text-align: left;
+}
+
+.comp-title,
+.owned-comp-name,
+.owned-balance,
+.owned-comp-price {
+    margin: 15px 0 15px 0;
+}
+
+.allocation-percent {
+    width: 100px;
+    text-align: left;
+    padding: 25px 0 25px 0;
+}
+
+.company-ticker,
+.owned-comp-shares,
+.curr-comp-percent {
+    font-size: 10pt;
+    color: gray;
+    padding-top: 5px;
+}
+
+.company-name a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.company-name a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,154 @@
+.nav-bar {
+    background-color: white;
+    width: 100%;
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.sea-navbar-logo {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3em;
+    color: #064788;
+    font-size: 2em;
+}
+
+.sea-navbar-logo a {
+    text-decoration: none;
+    color: #064788;
+}
+
+.navbar-right {
+    position: absolute;
+    right: 5em;
+    /* margin-top: 0.47em; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-signup {
+    background-color: white;
+    height: 30px;
+    padding: 7px 25px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-signup a {
+    color: #064788;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#nav-signup:hover {
+    border: 1px solid #064788;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#nav-login {
+    background-color: white;
+    height: 30px;
+    padding: 7px 25px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-login:hover {
+    border: 1px solid #064788;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+#nav-login a {
+    color: #064788;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* .auth-navbar-search {
+    position: absolute;
+    left: 20em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.auth-navbar-right {
+    position: absolute;
+    right: 5em;
+    /* margin-top: 0.47em; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-portfolio a {
+    color: #064788;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#nav-transactions {
+    margin-left: 18px;
+}
+
+#nav-transactions a {
+    color: #064788;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* #nav-portfolio:hover, #nav-transactions:hover {
+    cursor: pointer;
+} */
+
+#logout-btn {
+    border-radius: 23px;
+    border: 1px solid #064788;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    font-size: 1em;
+    margin-left: 18px;
+    color: #064788;
+    font-size: 1em;
+}
+
+#logout-btn:hover {
+    cursor: pointer;
+}
+
+.sea-logo{
+    max-width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    /* border-radius: 5px 5px; */
+    margin: 5px 10px;
+    padding: 10px;
+    transition-duration: 1s;
+}

@@ -1,0 +1,90 @@
+.login-page {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.login-image {
+    background-image: url(https://cdn.sei.org/wp-content/uploads/2020/10/pressrelease-trasefinance-viaframe-gettyimages-582759168.jpg);
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+
+.login-form {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login-email-input,
+.login-password-input,
+.login-button {
+    display: flex;
+    margin-left: 20px;
+}
+
+.login-form-title {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+
+.login-email-input,
+.login-password-input,
+.login-button,
+.login-form-signup-nav,
+.login-form-errors {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.both-login-page-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-button, .auth-demo-btn {
+    outline: none;
+    border-radius: 0;
+    padding: 10px 40px;
+    color: white;
+    background: black;
+    border-radius: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-button:hover, .auth-demo-btn:hover {
+    background: #7cb6f0;
+    cursor: pointer;
+}
+
+
+.login-email-form-field,
+.login-password-form-field {
+    width: 350px;
+    height: 20px;
+    border: 1px solid #7cb6f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.login-form-create-account {
+    color: black;
+    font-weight: 600;
+}
+
+.login-form-create-account:hover {
+    color: #7cb6f0;
+}
+
+.login-form-errors {
+    color: rgb(221, 47, 47);
+}

@@ -1,0 +1,87 @@
+.WatchlistFormDiv {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 5px 5px;
+    padding: 10px 10px; */
+
+    display: block;
+    padding: 20px;
+    margin: 2em 2em;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgb(209, 209, 209);
+    /* width: 300px; */
+}
+
+.WatchlistForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.errorsArray {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    /* background-color: blue; */
+}
+
+.InputAndSubmitButton {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 5px;
+    border: 5px 5px;
+}
+
+.WatchlistSubmitButton {
+    background-color: #0b7cee;
+    color: white;
+    font-family: sans-serif;
+    /* border-radius: 5px 5px; */
+    border: none;
+    /* padding: 5px 5px; */
+    /* background-color: transparent; */
+    transition-duration: 1s;
+    margin-top: 10px;
+    margin: 5px;
+    height: 30px;
+    padding: 7px 20px;
+    border-radius: 35px;
+}
+
+.WatchlistSubmitButton:hover {
+    /* background-color: rgb(40, 197, 249); */
+    box-shadow: 0px 0px 6px rgb(92, 91, 91, .8);
+    cursor: pointer;
+
+}
+
+/*
+.WatchlistSubmitButton:hover {
+    border-radius: 5px 5px;
+    padding: 2px 5px;
+    margin-left: 4px;
+ */
+
+
+.WatchlistFormErrorItem {
+    font-family: sans-serif;
+}
+
+.WatchlistHeaderForm {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}

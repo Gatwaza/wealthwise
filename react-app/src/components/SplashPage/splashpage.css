@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.panel-one {
+    background-color: #0b7cee;
+    /* background-image: url('../../images/stock-market-02.jpeg'); */
+    /* background-image: url('../../images/stock-market-03.webp'); */
+    background-image: url('../../images/stock-market-04.webp');
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    margin-top: 70px;
+    /* z-index: 0; */
+    /* position: fixed; */
+}
+
+.panel-one-description {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-end;
+    margin-right: 20em;
+    /* margin-left: 9em; */
+    /* margin-top: 2em; */
+}
+
+.panel-one-description h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 0em;
+    text-shadow: 2px 2px 2px black;
+}
+
+#panel-h1-spacer {
+    height: 2em;
+}
+
+.panel-one-description p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+#get-started-btn {
+    margin-top: 2.5em;
+    border-radius: 23px;
+    height: 50px;
+    width: 137px;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: white;
+    border: 2px solid white;
+    text-shadow: 2px 2px 2px black;
+    margin-right: 1em;
+}
+
+#get-started-btn:hover {
+    cursor: pointer;
+}
+
+.splash-disclaimer {
+    /* color: #064788; */
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-image: linear-gradient(to right, rgb(1, 4, 65) , rgb(9, 179, 179));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.splash-disclaimer p {
+    /* line-height: 5px; */
+    margin-bottom: 0;
+}
+
+.splash-demo-btn {
+    margin-top: 2.5em;
+    border-radius: 23px;
+    height: 50px;
+    width: 137px;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: white;
+    border: 2px solid white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.splash-demo-btn:hover {
+    cursor: pointer;
+}

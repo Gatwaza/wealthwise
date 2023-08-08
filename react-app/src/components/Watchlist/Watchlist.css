@@ -1,0 +1,161 @@
+.hidden {
+    display: none;
+}
+
+
+
+.watchlists {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 2em 2em;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgb(209 209 209);
+}
+
+/* .watchlist {
+    width: 100%;
+} */
+
+.deleteButton {
+    border: none;
+    background-color: transparent;
+    align-self: flex-end;
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+
+}
+
+.editButton {
+    border: none;
+    background-color: transparent;
+    align-self: flex-end;
+}
+
+.editButton:hover {
+    /* padding: 5px 14px; */
+    /* box-shadow: 0px 0px 5px rgb(92, 91, 91); */
+    cursor: pointer;
+    /* background-color: #0b7cee; */
+
+}
+
+.editingPicture {
+    width: 15px;
+    background-color: transparent;
+}
+
+.deletePicture {
+    width: 15px;
+    background-color: transparent;
+}
+
+.company{
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.navLinkStocksWatchlist{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    font-weight: bold;
+    transition-duration: 1s;
+    border: none;
+    border-radius: 5px 5px;
+    padding: 5px;
+}
+
+.navLinkStocksWatchlist:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    /* box-shadow: 0px 0px 5px rgb(92, 91, 91); */
+}
+
+.divCompanyPriceAndGraph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.watchlistButtonsEditAndDelete{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.watchlistName{
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    overflow-wrap: anywhere;
+    width: 185px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.editBtnDiv{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.titleWatchlistDiv{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding-bottom: 6px;
+    border-bottom: rgb(0, 0, 0, .4) 1px solid;
+    width: 250px;
+    /* border-style: dashed double none; */
+    /* background-color: blue; */
+}
+
+.WatchlistTitleH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+
+.OneWatchListDiv{
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.companyStockClosingPrice{
+    display: flex;
+    font-size: 15px;
+    width: auto;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.title-and-delete-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
