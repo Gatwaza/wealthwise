@@ -1,19 +1,14 @@
 import os
 
+
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
-    # Construct the SQLALCHEMY_DATABASE_URI using environment variables
-    DB_USER = os.environ.get('DB_USER')
-    DB_PASSWORD = os.environ.get('DB_PASSWORD')
-    DB_HOST = os.environ.get('DB_HOST')
-    DB_PORT = os.environ.get('DB_PORT')
-    DB_NAME = os.environ.get('DB_NAME')
-
-    # Construct the SQLAlchemy connection URI
-    SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-
-    # Set SQLALCHEMY_ECHO to True for debugging SQL queries
+    # SQLAlchemy 1.4 no longer supports url strings that start with 'postgres'
+    # (only 'postgresql') but heroku's postgres add-on automatically sets the
+    # url in the hidden config vars to start with postgres.
+    # so the connection uri must be updated here
+    SQLALCHEMY_DATABASE_URI = os.environ.get(
+        'DATABASE_URL').replace('postgres://', 'postgresql://')
     SQLALCHEMY_ECHO = True
-
+    FINNHUB_API_KEY = os.environ.get('FINNHUB_API_KEY')
